@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="44.99999999999994" y="0.0">ConflictooSocial</node>
+    <node x="343.59722222222223" y="123.0">Geografia</node>
+    <node x="30.0" y="290.5">Residencial</node>
+    <node x="0.0" y="134.0">Poblacion</node>
+    <node x="258.0" y="268.0">Sector</node>
+    <node x="379.0" y="603.0">Ciudad</node>
+    <node x="482.0" y="458.0">Clima</node>
+    <node x="147.5" y="414.0">Administracion</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Administracion" target="Residencial">
+      <point x="-66.66666666666671" y="-69.5" />
+      <point x="180.8333333333333" y="389.0" />
+      <point x="118.5" y="389.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Ciudad" target="Administracion">
+      <point x="-61.66666666666663" y="-47.5" />
+      <point x="409.83333333333337" y="578.0" />
+      <point x="247.5" y="578.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="Residencial" target="Poblacion">
+      <point x="-2.8421709430404007E-14" y="-25.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Sector" target="Geografia">
+      <point x="0.0" y="-48.0" />
+      <point x="359.5" y="243.0" />
+      <point x="383.59722222222223" y="243.0" />
+      <point x="-40.0" y="47.5" />
+    </edge>
+    <edge source="Poblacion" target="ConflictooSocial">
+      <point x="-2.8421709430404007E-14" y="-36.5" />
+      <point x="118.49999999999997" y="98.0" />
+      <point x="113.99999999999994" y="98.0" />
+      <point x="-69.0" y="36.5" />
+    </edge>
+    <edge source="Ciudad" target="Geografia">
+      <point x="0.0" y="-47.5" />
+      <point x="471.5" y="243.0" />
+      <point x="463.59722222222223" y="243.0" />
+      <point x="40.0" y="47.5" />
+    </edge>
+    <edge source="Ciudad" target="Clima">
+      <point x="61.66666666666663" y="-47.5" />
+      <point x="533.1666666666666" y="578.0" />
+      <point x="580.5" y="578.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Administracion" target="Sector">
+      <point x="66.66666666666666" y="-69.5" />
+      <point x="314.16666666666663" y="389.0" />
+      <point x="359.5" y="389.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="ConflictooSocial" target="Administracion">
+      <point x="69.0" y="36.5" />
+      <point x="251.99999999999994" y="98.0" />
+      <point x="247.5" y="98.0" />
+      <point x="-2.8421709430404007E-14" y="-69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="230.0" y="390.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
